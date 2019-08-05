@@ -1,0 +1,43 @@
+.container {
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+.container-description .style-title {
+	font-family: 'Dancing Script', cursive;
+}
+.container-photo {
+  	width: 40%;
+  	height: 100vh;
+  	position: fixed;
+  	right: 0;
+  	display: flex;
+  	justify-content: center;
+  	flex-direction: column;
+  	background-color: black;
+
+}
+.container-photo img {
+	width: 100%;
+}
+
+.container-description {
+	width: 59%;
+
+} 
+.container-description h1 {
+	color: #EF0707;
+	text-align: center;
+	font-size: 3.75em;
+	font-family: 'Spectral', serif;
+}
+.container-description h2 {
+    color: #A69A9A;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 1.75em;
+    text-align: center;
+}
+.container-description .style-words {
+	font-family: 'PT Sans', sans-serif;	
+}
+
